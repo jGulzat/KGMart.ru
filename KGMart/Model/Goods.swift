@@ -13,16 +13,3 @@ struct Good {
     var image: String
     var count: Int
 }
-
-//enum Fabricator {
-//    case Alkan, Djunhay, Shanhay
-//}
-
-
-struct Fabricator {
-    var name: String
-    var brand: [String]
-    var goods: [Good]
-    var isOpen: Bool = false
-    var logo: String
-}

@@ -18,6 +18,7 @@
 		7C0B47732B07521800FD69D8 /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B47722B07521800FD69D8 /* Goods.swift */; };
 		7C0B47762B075C0100FD69D8 /* GoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B47752B075C0100FD69D8 /* GoodCell.swift */; };
 		7C87D4D12B08C0F1000E366E /* FabricatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */; };
+		7C87D4D32B08D478000E366E /* Fabricator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D4D22B08D478000E366E /* Fabricator.swift */; };
 		7C8D09442B033FC500325971 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D09432B033FC500325971 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		7C0B47722B07521800FD69D8 /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
 		7C0B47752B075C0100FD69D8 /* GoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodCell.swift; sourceTree = "<group>"; };
 		7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorCell.swift; sourceTree = "<group>"; };
+		7C87D4D22B08D478000E366E /* Fabricator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fabricator.swift; sourceTree = "<group>"; };
 		7C8D09432B033FC500325971 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		D73F8BE8BD2FE8B238428BAD /* Pods-KGMart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGMart.debug.xcconfig"; path = "Target Support Files/Pods-KGMart/Pods-KGMart.debug.xcconfig"; sourceTree = "<group>"; };
 		F6CF90A0B8C19DA721BBB549 /* Pods_KGMart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGMart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				7C0B47722B07521800FD69D8 /* Goods.swift */,
+				7C87D4D22B08D478000E366E /* Fabricator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C0B47702B074D6000FD69D8 /* CatalogViewController.swift in Sources */,
+				7C87D4D32B08D478000E366E /* Fabricator.swift in Sources */,
 				7C8D09442B033FC500325971 /* ApiManager.swift in Sources */,
 				7C0B47762B075C0100FD69D8 /* GoodCell.swift in Sources */,
 				7C075CD62B0245F4006B0925 /* LoginViewController.swift in Sources */,
