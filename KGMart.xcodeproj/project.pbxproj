@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ACC1D76D1271C398D2A3043 /* Pods_KGMart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CF90A0B8C19DA721BBB549 /* Pods_KGMart.framework */; };
 		7C075CD22B0245F4006B0925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C075CD12B0245F4006B0925 /* AppDelegate.swift */; };
 		7C075CD42B0245F4006B0925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C075CD32B0245F4006B0925 /* SceneDelegate.swift */; };
-		7C075CD62B0245F4006B0925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C075CD52B0245F4006B0925 /* ViewController.swift */; };
-		7C075CD92B0245F4006B0925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C075CD72B0245F4006B0925 /* Main.storyboard */; };
+		7C075CD62B0245F4006B0925 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C075CD52B0245F4006B0925 /* LoginViewController.swift */; };
 		7C075CDB2B0245F5006B0925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C075CDA2B0245F5006B0925 /* Assets.xcassets */; };
 		7C075CDE2B0245F5006B0925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C075CDC2B0245F5006B0925 /* LaunchScreen.storyboard */; };
+		7C075CE92B024DCC006B0925 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C075CE82B024DCC006B0925 /* GoogleService-Info.plist */; };
+		7C0B47702B074D6000FD69D8 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B476F2B074D6000FD69D8 /* CatalogViewController.swift */; };
+		7C0B47732B07521800FD69D8 /* Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B47722B07521800FD69D8 /* Goods.swift */; };
+		7C0B47762B075C0100FD69D8 /* GoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B47752B075C0100FD69D8 /* GoodCell.swift */; };
+		7C87D4D12B08C0F1000E366E /* FabricatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */; };
+		7C8D09442B033FC500325971 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D09432B033FC500325971 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15EC8ABAF4E0C5BAA804F963 /* Pods-KGMart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGMart.release.xcconfig"; path = "Target Support Files/Pods-KGMart/Pods-KGMart.release.xcconfig"; sourceTree = "<group>"; };
 		7C075CCE2B0245F4006B0925 /* KGMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C075CD12B0245F4006B0925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C075CD32B0245F4006B0925 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C075CD52B0245F4006B0925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C075CD82B0245F4006B0925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C075CD52B0245F4006B0925 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C075CDA2B0245F5006B0925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C075CDD2B0245F5006B0925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C075CDF2B0245F5006B0925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C075CE82B024DCC006B0925 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7C0B476F2B074D6000FD69D8 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		7C0B47722B07521800FD69D8 /* Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goods.swift; sourceTree = "<group>"; };
+		7C0B47752B075C0100FD69D8 /* GoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodCell.swift; sourceTree = "<group>"; };
+		7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorCell.swift; sourceTree = "<group>"; };
+		7C8D09432B033FC500325971 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		D73F8BE8BD2FE8B238428BAD /* Pods-KGMart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGMart.debug.xcconfig"; path = "Target Support Files/Pods-KGMart/Pods-KGMart.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CF90A0B8C19DA721BBB549 /* Pods_KGMart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGMart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACC1D76D1271C398D2A3043 /* Pods_KGMart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4823170C0E35D5097791023F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CF90A0B8C19DA721BBB549 /* Pods_KGMart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C075CC52B0245F4006B0925 = {
 			isa = PBXGroup;
 			children = (
 				7C075CD02B0245F4006B0925 /* KGMart */,
 				7C075CCF2B0245F4006B0925 /* Products */,
+				E95C2662E782E8A91DF66069 /* Pods */,
+				4823170C0E35D5097791023F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,77 @@
 		7C075CD02B0245F4006B0925 /* KGMart */ = {
 			isa = PBXGroup;
 			children = (
-				7C075CD12B0245F4006B0925 /* AppDelegate.swift */,
-				7C075CD32B0245F4006B0925 /* SceneDelegate.swift */,
-				7C075CD52B0245F4006B0925 /* ViewController.swift */,
-				7C075CD72B0245F4006B0925 /* Main.storyboard */,
-				7C075CDA2B0245F5006B0925 /* Assets.xcassets */,
-				7C075CDC2B0245F5006B0925 /* LaunchScreen.storyboard */,
+				7C0B47712B07520900FD69D8 /* Model */,
+				7C8D09422B033E9F00325971 /* ApiManager */,
+				7C075CE82B024DCC006B0925 /* GoogleService-Info.plist */,
+				7C075CE72B024657006B0925 /* Resource */,
+				7C075CE62B024632006B0925 /* Common */,
+				7C075CE52B024625006B0925 /* AppDelegate */,
 				7C075CDF2B0245F5006B0925 /* Info.plist */,
 			);
 			path = KGMart;
+			sourceTree = "<group>";
+		};
+		7C075CE52B024625006B0925 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7C075CD32B0245F4006B0925 /* SceneDelegate.swift */,
+				7C075CD12B0245F4006B0925 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7C075CE62B024632006B0925 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7C0B47742B075BEB00FD69D8 /* Cell */,
+				7C075CD52B0245F4006B0925 /* LoginViewController.swift */,
+				7C0B476F2B074D6000FD69D8 /* CatalogViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7C075CE72B024657006B0925 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7C075CDC2B0245F5006B0925 /* LaunchScreen.storyboard */,
+				7C075CDA2B0245F5006B0925 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7C0B47712B07520900FD69D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C0B47722B07521800FD69D8 /* Goods.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C0B47742B075BEB00FD69D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7C0B47752B075C0100FD69D8 /* GoodCell.swift */,
+				7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7C8D09422B033E9F00325971 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				7C8D09432B033FC500325971 /* ApiManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		E95C2662E782E8A91DF66069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D73F8BE8BD2FE8B238428BAD /* Pods-KGMart.debug.xcconfig */,
+				15EC8ABAF4E0C5BAA804F963 /* Pods-KGMart.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C075CE22B0245F5006B0925 /* Build configuration list for PBXNativeTarget "KGMart" */;
 			buildPhases = (
+				AF282241FCE6F56D9DA11F94 /* [CP] Check Pods Manifest.lock */,
 				7C075CCA2B0245F4006B0925 /* Sources */,
 				7C075CCB2B0245F4006B0925 /* Frameworks */,
 				7C075CCC2B0245F4006B0925 /* Resources */,
+				BA60CF54A0B52FDA985BD50B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +216,66 @@
 			files = (
 				7C075CDE2B0245F5006B0925 /* LaunchScreen.storyboard in Resources */,
 				7C075CDB2B0245F5006B0925 /* Assets.xcassets in Resources */,
-				7C075CD92B0245F4006B0925 /* Main.storyboard in Resources */,
+				7C075CE92B024DCC006B0925 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF282241FCE6F56D9DA11F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KGMart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA60CF54A0B52FDA985BD50B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KGMart/Pods-KGMart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KGMart/Pods-KGMart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KGMart/Pods-KGMart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C075CCA2B0245F4006B0925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C075CD62B0245F4006B0925 /* ViewController.swift in Sources */,
+				7C0B47702B074D6000FD69D8 /* CatalogViewController.swift in Sources */,
+				7C8D09442B033FC500325971 /* ApiManager.swift in Sources */,
+				7C0B47762B075C0100FD69D8 /* GoodCell.swift in Sources */,
+				7C075CD62B0245F4006B0925 /* LoginViewController.swift in Sources */,
+				7C87D4D12B08C0F1000E366E /* FabricatorCell.swift in Sources */,
 				7C075CD22B0245F4006B0925 /* AppDelegate.swift in Sources */,
+				7C0B47732B07521800FD69D8 /* Goods.swift in Sources */,
 				7C075CD42B0245F4006B0925 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +283,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C075CD72B0245F4006B0925 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C075CD82B0245F4006B0925 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C075CDC2B0245F5006B0925 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +410,7 @@
 		};
 		7C075CE32B0245F5006B0925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73F8BE8BD2FE8B238428BAD /* Pods-KGMart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +421,6 @@
 				INFOPLIST_FILE = KGMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +438,7 @@
 		};
 		7C075CE42B0245F5006B0925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EC8ABAF4E0C5BAA804F963 /* Pods-KGMart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +449,6 @@
 				INFOPLIST_FILE = KGMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
