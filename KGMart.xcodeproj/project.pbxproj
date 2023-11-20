@@ -20,6 +20,7 @@
 		7C87D4D12B08C0F1000E366E /* FabricatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */; };
 		7C87D4D32B08D478000E366E /* Fabricator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C87D4D22B08D478000E366E /* Fabricator.swift */; };
 		7C8D09442B033FC500325971 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D09432B033FC500325971 /* ApiManager.swift */; };
+		7C9886922B0B3D46002367FC /* AddGoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9886912B0B3D46002367FC /* AddGoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		7C87D4D02B08C0F1000E366E /* FabricatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricatorCell.swift; sourceTree = "<group>"; };
 		7C87D4D22B08D478000E366E /* Fabricator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fabricator.swift; sourceTree = "<group>"; };
 		7C8D09432B033FC500325971 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7C9886912B0B3D46002367FC /* AddGoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoodViewController.swift; sourceTree = "<group>"; };
 		D73F8BE8BD2FE8B238428BAD /* Pods-KGMart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGMart.debug.xcconfig"; path = "Target Support Files/Pods-KGMart/Pods-KGMart.debug.xcconfig"; sourceTree = "<group>"; };
 		F6CF90A0B8C19DA721BBB549 /* Pods_KGMart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGMart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				7C0B47742B075BEB00FD69D8 /* Cell */,
 				7C075CD52B0245F4006B0925 /* LoginViewController.swift */,
 				7C0B476F2B074D6000FD69D8 /* CatalogViewController.swift */,
+				7C9886912B0B3D46002367FC /* AddGoodViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				7C0B47702B074D6000FD69D8 /* CatalogViewController.swift in Sources */,
 				7C87D4D32B08D478000E366E /* Fabricator.swift in Sources */,
 				7C8D09442B033FC500325971 /* ApiManager.swift in Sources */,
+				7C9886922B0B3D46002367FC /* AddGoodViewController.swift in Sources */,
 				7C0B47762B075C0100FD69D8 /* GoodCell.swift in Sources */,
 				7C075CD62B0245F4006B0925 /* LoginViewController.swift in Sources */,
 				7C87D4D12B08C0F1000E366E /* FabricatorCell.swift in Sources */,
