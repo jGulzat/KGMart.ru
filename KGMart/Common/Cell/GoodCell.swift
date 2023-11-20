@@ -63,27 +63,53 @@ class GoodCell: UITableViewCell {
         return label
     }()
     
+    private let fabricatorLabel: UILabel = {
+       let label = UILabel()
+        label.textColor = .black
+        label.font = .systemFont(ofSize: 16, weight: .medium)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textAlignment = .center
+        return label
+    }()
+    
+    private let divider = UIView()
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         configureBGView()
+        configureGoodfabricatorLabel()
         configureGoodBrandLabel()
         configureGoodImage()
         configureGoodNameLabel()
         configureGoodNameValueLabel()
         configureGoodCountLabel()
         configureGoodCountValueLabel()
+       // configureDivider()
+    }
+    
+    private func configureDivider() {
+        contentView.addSubview(divider)
+        divider.backgroundColor = .gray
+        divider.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            divider.topAnchor.constraint(equalTo: goodNameValueLabel.bottomAnchor, constant: 4),
+            divider.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 8),
+            divider.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -8),
+            divider.heightAnchor.constraint(equalToConstant: 1)
+        ])
     }
     
     private func configureBGView() {
         contentView.addSubview(bgView)
-    
+        bgView.backgroundColor = .systemGray6
+        bgView.layer.cornerRadius = 16
         bgView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            bgView.topAnchor.constraint(equalTo: contentView.topAnchor),
+            bgView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 6),
             bgView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             bgView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
-            bgView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
+            bgView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -6),
             bgView.heightAnchor.constraint(equalToConstant: 200)
         ])
     }
@@ -92,8 +118,17 @@ class GoodCell: UITableViewCell {
         bgView.addSubview(goodBrandLabel)
         
         NSLayoutConstraint.activate([
-            goodBrandLabel.topAnchor.constraint(equalTo: bgView.topAnchor),
+            goodBrandLabel.topAnchor.constraint(equalTo: fabricatorLabel.topAnchor),
             goodBrandLabel.centerXAnchor.constraint(equalTo: bgView.centerXAnchor)
+        ])
+    }
+    
+    private func configureGoodfabricatorLabel() {
+        bgView.addSubview(fabricatorLabel)
+        
+        NSLayoutConstraint.activate([
+            fabricatorLabel.topAnchor.constraint(equalTo: bgView.topAnchor, constant: 4),
+            fabricatorLabel.leadingAnchor.constraint(equalTo: bgView.leadingAnchor, constant: 8)
         ])
     }
     
@@ -149,6 +184,7 @@ class GoodCell: UITableViewCell {
         goodNameValueLabel.text = good.name
         goodBrandLabel.text = good.brand
         goodCountValueLabel.text = String(good.count)
+        fabricatorLabel.text = good.fabricator
     }
     
     required init?(coder: NSCoder) {

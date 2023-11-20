@@ -210,6 +210,11 @@ class LoginViewController: UIViewController {
     @objc func loginValidate(_ sender: UIButton) {
         if mailTF.text == "KGMart@gmail.com" && passwordTF.text == "KGMart01" {
             navigationController?.pushViewController(CatalogViewController(), animated: true)
+        } else {
+            mailTF.text = ""
+            passwordTF.text = ""
+            mailTF.placeholder = "Введите правильные данные"
+            passwordTF.placeholder = "Введите правильные данные"
         }
     }
 }

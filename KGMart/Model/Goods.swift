@@ -12,4 +12,5 @@ struct Good {
     var brand: String
     var image: String
     var count: Int
+    var fabricator: String
 }
